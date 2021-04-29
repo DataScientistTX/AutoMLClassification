@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run --server.enableXsrfProtection=false --server.port $PORT app.py
